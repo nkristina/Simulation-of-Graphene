@@ -23,5 +23,3 @@ neigh_modify    exclude type 3 2
 read_data	DATA.FILE
   orthogonal box = (0 0 -36.149) to (127.806 221.367 94.547)
   1 by 1 by 1 MPI processor grid
-ERROR: Invalid mass line in data file (../read_data.cpp:1659)
-Last command: read_data	DATA.FILE
