@@ -3,7 +3,7 @@
  
  Content:
  
- - C++ code which generates coordinates of the graphene crystal lattice and hydrogen atoms
+ - C code which generates coordinates of the graphene crystal lattice and hydrogen atoms
  - Lammps file for simulating the interaction between hydrogen, carbon and graphene atoms
  - SiC file with constants needed for Lammps functions
  - Input parameters file
