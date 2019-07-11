@@ -1,0 +1,27 @@
+LAMMPS (26 Jan 2017-ICMS)
+OMP_NUM_THREADS environment is not set. Defaulting to 1 thread. (../comm.cpp:90)
+  using 1 OpenMP thread(s) per MPI task
+
+# SIMULATION - graphene placed on FCC (111) plate composed of Cu atoms
+
+
+
+units		metal
+dimension	3
+boundary	p p f
+atom_style	full
+
+# Define the potential
+pair_style hybrid lj/cut 7.5 tersoff
+bond_style harmonic
+
+neigh_modify    exclude type 1 2
+neigh_modify    exclude type 3 2
+
+
+# Read the starting configuration from DATA.FILE
+read_data	DATA.FILE
+  orthogonal box = (0 0 -36.149) to (127.806 221.367 94.547)
+  1 by 1 by 1 MPI processor grid
+ERROR: Invalid mass line in data file (../read_data.cpp:1659)
+Last command: read_data	DATA.FILE

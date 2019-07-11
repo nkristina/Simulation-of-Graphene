@@ -1,0 +1,12 @@
+Number of atoms along the y-axis of BOTTOM plate: 50
+
+Size of the LJ_sigma parameter in angstroms (PLATES' ATOMS): 3.000
+
+Mass of PLATES' ATOMS (mP): 100.000
+
+Number of groups to which each plate is divided, PD: 1
+
+Number of layers in 1 group of a plate: 3
+
+Bond coeff K: 100.000
+
